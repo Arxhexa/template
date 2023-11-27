@@ -1,0 +1,10 @@
+[Unit]
+Description=Xray Service
+
+[Service]
+ExecStart=/usr/bin/xray -c /root/xray/config.json
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
