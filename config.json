@@ -9,7 +9,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "",
+                        "id": "", //exec xray uuid
                         "flow": "xtls-rprx-vision"
                     }
                 ],
@@ -23,7 +23,7 @@
                     "serverNames": [
                         ""
                     ],
-                    "privateKey": "",
+                    "privateKey": "", //exec xray x25519
                     "shortIds": [
                         "",
                         "0123456789abcdef"
